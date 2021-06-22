@@ -1,0 +1,30 @@
+/* .container {
+  transform: translateY(-100%);
+} */
+
+.container p {
+  color: red;
+  text-align: center;
+}
+
+.drop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 350px;
+  height: 200px;
+  border: 1px dashed #000000;
+}
+
+.drop-message {
+  text-align: center;
+  color: #000000;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.MuiDialog-paperWidthMd {
+  max-width: 960px;
+  width: 70%;
+}

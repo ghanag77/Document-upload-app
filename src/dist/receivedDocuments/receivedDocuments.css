@@ -1,0 +1,181 @@
+.receivedDocuments-container {
+  margin: 20px;
+}
+.receivedDocuments-container h2 {
+  margin: 0px;
+}
+.receivedDocuments-total-container {
+  border: 1px solid #000000;
+}
+.receivedDocuments-header-container .plain-header {
+  height: 30px;
+  background-color: rgb(12, 9, 9);
+}
+.receivedDocuments-header-container .sub-header {
+  color: #97181e;
+  font-weight: 600;
+  background-color: rgb(240, 236, 14);
+  margin: 0px;
+  padding: 3px;
+}
+.receivedDocuments-main-container {
+  margin: 20px;
+  margin-right: 5px;
+}
+.table-title {
+  background-color: rgba(98, 209, 76, 0.849);
+  color: #000000;
+  font-weight: 600;
+  border: 1px solid #000000;
+  font-size: 14px;
+  padding: 3px;
+  width: 25%;
+  margin: 0px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tr th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  color: #fff;
+  background-color: rgb(12, 9, 9);
+  font-weight: 600;
+  font-size: 14px;
+}
+tr {
+  border: 2px solid black;
+}
+td {
+  text-align: left;
+  padding: 8px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+tbody:before {
+  line-height: 3px;
+  content: "-";
+  color: white;
+  display: block;
+}
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.receivedDocuments-total-container .select-options {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.select-options .input-container {
+  width: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+input[type="radio"] {
+  border: 2px;
+  width: 20%;
+  height: 2em;
+}
+.btn {
+  border: 2px solid gray;
+  background-color: white;
+  padding: 4px 10px;
+  font-size: 15px;
+}
+.upload-btn {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.upload-btn input[type="file"] {
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  padding: 8px 0px;
+}
+.upload-container {
+  display: flex;
+  justify-content: left;
+}
+.upload-container > div {
+  padding: 10px;
+}
+select {
+  padding: 3px;
+  border: 2px solid gray;
+}
+.upload-container p {
+  font-size: 14px;
+  color: black;
+  margin: 0px;
+}
+textarea {
+  width: 100%;
+  outline: none;
+  padding: 3px 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  resize: none;
+}
+.column2-container {
+  display: flex;
+  flex-direction: column;
+}
+.column2-container > div,
+.sub-column > div {
+  padding: 0px 8px;
+}
+.sub-column {
+  display: flex;
+  justify-content: left;
+}
+.doc-name input {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+.doc-name {
+  margin: 8px;
+}
+.select-options > div {
+  padding-right: 20px;
+}
+.select-options div label {
+  padding: 0 5px;
+}
+.receivedDocuments-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.receivedDocuments-footer > * {
+  margin: 10px 10px;
+}
+.receivedDocuments-footer button,
+input[type="submit"] {
+  border: 2px solid #00437b;
+  padding: 8px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #00437b;
+  color: #fff;
+}
+input[type="submit"] :focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: 2px solid darkblue;
+  box-shadow: 0 0 5px dodgerblue;
+}
